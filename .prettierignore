@@ -1,0 +1,12 @@
+docs/**
+*.min.js
+*.html
+*.css
+dist/
+build/
+coverage/
+.nyc/
+.coverage/
+types/
+typings/
+*.d.ts
