@@ -1,135 +1,221 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="default no-js">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>safe_chainid</title>
-    <meta name="description" content="Documentation for safe_chainid" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <script async src="assets/js/search.js" id="search-script"></script>
-  </head>
-  <body>
-    <header>
-      <div class="tsd-page-toolbar">
-        <div class="container">
-          <div class="table-wrap">
-            <div
-              class="table-cell"
-              id="tsd-search"
-              data-index="assets/js/search.json"
-              data-base="."
-            >
-              <div class="field">
-                <label
-                  for="tsd-search-field"
-                  class="tsd-widget search no-caption"
-                  >Search</label
-                >
-                <input id="tsd-search-field" type="text" />
-              </div>
-              <ul class="results">
-                <li class="state loading">Preparing search index...</li>
-                <li class="state failure">The search index is not available</li>
-              </ul>
-              <a href="index.html" class="title">safe_chainid</a>
-            </div>
-            <div class="table-cell" id="tsd-widgets">
-              <div id="tsd-filter">
-                <a
-                  href="#"
-                  class="tsd-widget options no-caption"
-                  data-toggle="options"
-                  >Options</a
-                >
-                <div class="tsd-filter-group">
-                  <div class="tsd-select" id="tsd-filter-visibility">
-                    <span class="tsd-select-label">All</span>
-                    <ul class="tsd-select-list">
-                      <li data-value="public">Public</li>
-                      <li data-value="protected">Public/Protected</li>
-                      <li data-value="private" class="selected">All</li>
-                    </ul>
-                  </div>
-                  <input type="checkbox" id="tsd-filter-inherited" checked />
-                  <label class="tsd-widget" for="tsd-filter-inherited"
-                    >Inherited</label
-                  >
-                  <input type="checkbox" id="tsd-filter-externals" checked />
-                  <label class="tsd-widget" for="tsd-filter-externals"
-                    >Externals</label
-                  >
-                </div>
-              </div>
-              <a href="#" class="tsd-widget menu no-caption" data-toggle="menu"
-                >Menu</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tsd-page-title">
-        <div class="container">
-          <h1>safe_chainid</h1>
-        </div>
-      </div>
-    </header>
-    <div class="container container-main">
-      <div class="row">
-        <div class="col-8 col-content">
-          <div class="tsd-panel tsd-typography"></div>
-        </div>
-        <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
-          <nav class="tsd-navigation primary">
-            <ul>
-              <li class="">
-                <a href="modules.html">Exports</a>
-              </li>
-            </ul>
-          </nav>
-          <nav class="tsd-navigation secondary menu-sticky">
-            <ul class="before-current">
-              <li class="tsd-kind-enum">
-                <a href="enums/ChainId.html" class="tsd-kind-icon"
-                  >Chain<wbr />Id</a
-                >
-              </li>
-              <li class="tsd-kind-variable">
-                <a href="modules.html#MAX_SAFE_CHAINID" class="tsd-kind-icon"
-                  >MAX_<wbr />SAFE_<wbr />CHAINID</a
-                >
-              </li>
-              <li class="tsd-kind-variable">
-                <a href="modules.html#MAX_SAFE_CHAIN_ID" class="tsd-kind-icon"
-                  >MAX_<wbr />SAFE_<wbr />CHAIN_<wbr />ID</a
-                >
-              </li>
-              <li class="tsd-kind-function">
-                <a href="modules.html#default" class="tsd-kind-icon">default</a>
-              </li>
-              <li class="tsd-kind-function">
-                <a href="modules.html#isSafeChainId" class="tsd-kind-icon"
-                  >is<wbr />Safe<wbr />Chain<wbr />Id</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <footer class="with-border-bottom">
-      <div class="container">
-        <h2>Legend</h2>
-        <div class="tsd-legend-group"></div>
-      </div>
-    </footer>
-    <div class="container tsd-generator">
-      <p>
-        Generated using
-        <a href="https://typedoc.org/" target="_blank">TypeDoc</a>
-      </p>
-    </div>
-    <div class="overlay"></div>
-    <script src="assets/js/main.js"></script>
-  </body>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>safe_chainid</title>
+	<meta name="description" content="Documentation for safe_chainid">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<script async src="assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">safe_chainid</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<h1>safe_chainid</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#safe-chainid" id="safe-chainid" style="color: inherit; text-decoration: none;">
+					<h1>Safe ChainId</h1>
+				</a>
+				<blockquote>
+					<p>Note @remarks originally wrote this in a gist.</p>
+				</blockquote>
+				<a href="#summary" id="summary" style="color: inherit; text-decoration: none;">
+					<h2>Summary</h2>
+				</a>
+				<p>MetaMask can only handle chain IDs of a certain size. Specifically:</p>
+				<pre><code class="language-javascript"><span style="color: #0070C1">MAX_SAFE_CHAIN_ID</span><span style="color: #000000"> = </span><span style="color: #098658">4503599627370476</span><span style="color: #000000">;</span>
+</code></pre>
+				<p>MetaMask (and any program that consumes the same cryptographic libraries that we do) should reject any chain IDs greater than <code>MAX_SAFE_CHAIN_ID</code>, and validate chain IDs as follows, after successfully parsing them as <code>number</code> values:</p>
+				<pre><code class="language-javascript"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">MAX_SAFE_CHAIN_ID</span><span style="color: #000000"> = </span><span style="color: #098658">4503599627370476</span><span style="color: #000000">;</span>
+
+<span style="color: #0000FF">function</span><span style="color: #000000"> </span><span style="color: #795E26">isSafeChainId</span><span style="color: #000000">(</span><span style="color: #001080">chainId</span><span style="color: #000000">) {</span>
+<span style="color: #000000">  </span><span style="color: #AF00DB">return</span><span style="color: #000000"> (</span>
+<span style="color: #000000">    </span><span style="color: #267F99">Number</span><span style="color: #000000">.</span><span style="color: #795E26">isSafeInteger</span><span style="color: #000000">(</span><span style="color: #001080">chainId</span><span style="color: #000000">) &amp;&amp; </span><span style="color: #001080">chainId</span><span style="color: #000000"> &gt; </span><span style="color: #098658">0</span><span style="color: #000000"> &amp;&amp; </span><span style="color: #001080">chainId</span><span style="color: #000000"> &lt;= </span><span style="color: #001080">MAX_SAFE_CHAIN_ID</span>
+<span style="color: #000000">  );</span>
+<span style="color: #000000">}</span>
+</code></pre>
+				<a href="#justification" id="justification" style="color: inherit; text-decoration: none;">
+					<h2>Justification</h2>
+				</a>
+				<a href="#problem-statement" id="problem-statement" style="color: inherit; text-decoration: none;">
+					<h3>Problem Statement</h3>
+				</a>
+				<p>At the time of writing, the chain ID is effectively the GUID of Ethereum chains,
+					and a critical component of transaction signing.
+				See <a href="https://eips.ethereum.org/EIPS/eip-155">EIP-155</a> for details.</p>
+				<p>We are about to complete efforts to require chain IDs for all chains in MetaMask and enforce their use in transaction signing.
+				(We were already doing this, but there were some edge cases remaining.)</p>
+				<p>However, you&#39;ll notice that EIP-155 says nothing about the <em>size</em> of the chain ID.
+					Per <a href="https://eips.ethereum.org/EIPS/eip-695">EIP-695</a>,
+				the chain ID is a <code>QUANTITY</code>, which can be (with some possible caveats) any number in the <code>0</code> to <code>2**256</code> range.</p>
+				<p>Because JavaScript <code>number</code> values are <a href="https://en.wikipedia.org/wiki/IEEE_754">IEEE 754</a>
+					double-precision floating point numbers,
+					they can only safely represent values in the <code>-(2**53 - 1) &lt;= 2**53 - 1</code> range.
+					(We call the upper end of this range the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER"><code>MAX_SAFE_INTEGER</code></a>.)
+				This means that a chain <em>could</em> specify a chain ID that isn&#39;t safely representable as a native JavaScript <code>number</code>.</p>
+				<p>In the extension, we&#39;ve tried to mitigate this by using <code>bignumber.js</code> to validate chain IDs before converting them to hex,
+					but this is also unsafe because of the signing libraries we use.
+				Consider the following <code>ethereumjs-tx</code> implementations:</p>
+				<ul>
+					<li><a href="https://github.com/ethereumjs/ethereumjs-tx/blob/e3fc21467ecb997090f63f154b1407094f173bf2/index.js#L120-L127"><code>ethereumjs-tx@1.3.7</code>, used by the extension</a></li>
+					<li><a href="https://github.com/ethereumjs/ethereumjs-vm/blob/5184804b6652056183babb47ef254d98765c9b8c/packages/tx/src/transaction.ts#L368-L383"><code>ethereumjs-tx@3.0.0</code>, the latest version</a></li>
+				</ul>
+				<p>Whether we use <code>bignumber.js</code> or something else, our signing libraries expect <code>number</code> chain IDs.
+				The formula they used we get from <code>ethereumjs-tx@3.0.0</code>, which we also find in EIP-155:</p>
+				<pre><code class="language-javascript"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">isValidEIP155V</span><span style="color: #000000"> =</span>
+<span style="color: #000000">  </span><span style="color: #001080">vInt</span><span style="color: #000000"> === </span><span style="color: #0000FF">this</span><span style="color: #000000">.</span><span style="color: #795E26">getChainId</span><span style="color: #000000">() * </span><span style="color: #098658">2</span><span style="color: #000000"> + </span><span style="color: #098658">35</span><span style="color: #000000"> || </span><span style="color: #001080">vInt</span><span style="color: #000000"> === </span><span style="color: #0000FF">this</span><span style="color: #000000">.</span><span style="color: #795E26">getChainId</span><span style="color: #000000">() * </span><span style="color: #098658">2</span><span style="color: #000000"> + </span><span style="color: #098658">36</span><span style="color: #000000">;</span>
+</code></pre>
+				<p>In addition, in <a href="https://github.com/ethereumjs/ethereumjs-util/blob/c5dca47d1ec983edd3b00b559088f9b56e16bc01/src/signature.ts#L16-28">the <code>ecsign</code> implementation</a>
+				of <code>ethereumjs-util@7.0.5</code> (the latest version), we find the following:</p>
+				<pre><code class="language-javascript"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">sig</span><span style="color: #000000"> = </span><span style="color: #795E26">ecdsaSign</span><span style="color: #000000">(</span><span style="color: #001080">msgHash</span><span style="color: #000000">, </span><span style="color: #001080">privateKey</span><span style="color: #000000">);</span>
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">recovery</span><span style="color: #000000">: </span><span style="color: #267F99">number</span><span style="color: #000000"> = </span><span style="color: #001080">sig</span><span style="color: #000000">.</span><span style="color: #001080">recid</span><span style="color: #000000">;</span>
+
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">ret</span><span style="color: #000000"> = {</span>
+<span style="color: #000000">  </span><span style="color: #001080">r:</span><span style="color: #000000"> </span><span style="color: #001080">Buffer</span><span style="color: #000000">.</span><span style="color: #795E26">from</span><span style="color: #000000">(</span><span style="color: #001080">sig</span><span style="color: #000000">.</span><span style="color: #001080">signature</span><span style="color: #000000">.</span><span style="color: #795E26">slice</span><span style="color: #000000">(</span><span style="color: #098658">0</span><span style="color: #000000">, </span><span style="color: #098658">32</span><span style="color: #000000">)),</span>
+<span style="color: #000000">  </span><span style="color: #001080">s:</span><span style="color: #000000"> </span><span style="color: #001080">Buffer</span><span style="color: #000000">.</span><span style="color: #795E26">from</span><span style="color: #000000">(</span><span style="color: #001080">sig</span><span style="color: #000000">.</span><span style="color: #001080">signature</span><span style="color: #000000">.</span><span style="color: #795E26">slice</span><span style="color: #000000">(</span><span style="color: #098658">32</span><span style="color: #000000">, </span><span style="color: #098658">64</span><span style="color: #000000">)),</span>
+<span style="color: #000000">  </span><span style="color: #001080">v:</span><span style="color: #000000"> </span><span style="color: #001080">chainId</span><span style="color: #000000"> ? </span><span style="color: #001080">recovery</span><span style="color: #000000"> + (</span><span style="color: #001080">chainId</span><span style="color: #000000"> * </span><span style="color: #098658">2</span><span style="color: #000000"> + </span><span style="color: #098658">35</span><span style="color: #000000">) : </span><span style="color: #001080">recovery</span><span style="color: #000000"> + </span><span style="color: #098658">27</span><span style="color: #000000">,</span>
+<span style="color: #000000">};</span>
+</code></pre>
+				<p>We don&#39;t know what will happen if we provide an unsafe chain ID to a signing method, but presumably, nothing good.
+				Let&#39;s not find out; let&#39;s establish a <code>MAX_SAFE_CHAIN_ID</code> and enforce it.</p>
+				<p>Now, <code>sig.recid</code> is the ECDSA signature&#39;s &quot;recovery id&quot;, which per the following sources is a number in the <code>0 &lt;= 3</code> range:</p>
+				<ul>
+					<li><a href="https://ethereum.stackexchange.com/a/53182">Ethereum StackExchange</a></li>
+					<li><a href="https://pycoin.readthedocs.io/en/latest/source/pycoin.ecdsa.html">The <code>pycoin</code> (a Bitcoin library) documentation</a></li>
+				</ul>
+				<p>In summary:</p>
+				<ul>
+					<li>The chain ID is used to compute the <code>v</code> parameter in various Ethereum signing operations</li>
+					<li>Our signing libraries expect the chain ID to be a primitive <code>JavaScript</code> number</li>
+					<li>The chain ID must not exceed the JavaScript <code>MAX_SAFE_INTEGER</code> (<code>2**53 - 1</code>) in size</li>
+				</ul>
+				<a href="#calculations" id="calculations" style="color: inherit; text-decoration: none;">
+					<h3>Calculations</h3>
+				</a>
+				<p>Given the above signing implementations, we can calculate the largest chain ID, <code>MAX_SAFE_CHAIN_ID</code>, we can safely handle in MetaMask:</p>
+				<pre><code class="language-text">From ethereumjs-util@7.0.5, we have that:
+
+  v = recovery + (chainId * 2 + 35)
+
+Per the above discussion, we also have that:
+
+  int_max = 2**53 - 1
+  recovery_max = 3
+  chainId_max = ?
+
+Therefore:
+
+  v_max = 3 + (chainId * 2 + 35) = chainId * 2 + 38
+    &amp;&amp;
+  v_max &lt;= int_max
+
+    -&gt;
+
+  2**53 - 1 = MAX_SAFE_CHAIN_ID * 2 + 38
+
+    -&gt;
+
+  // Since we&#039;re dealing with integers, we round down.
+
+  MAX_SAFE_CHAIN_ID = floor( ( 2**53 - 39 ) / 2 ) = 4503599627370476
+</code></pre>
+				<p>Given the value of the safe chain ID, we can validate all incoming chain IDs as follows, once they&#39;re converted to integers:</p>
+				<pre><code class="language-javascript"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">MAX_SAFE_CHAIN_ID</span><span style="color: #000000"> = </span><span style="color: #098658">4503599627370476</span><span style="color: #000000">;</span>
+
+<span style="color: #0000FF">function</span><span style="color: #000000"> </span><span style="color: #795E26">isSafeChainId</span><span style="color: #000000">(</span><span style="color: #001080">chainId</span><span style="color: #000000">) {</span>
+<span style="color: #000000">  </span><span style="color: #AF00DB">return</span><span style="color: #000000"> (</span>
+<span style="color: #000000">    </span><span style="color: #267F99">Number</span><span style="color: #000000">.</span><span style="color: #795E26">isSafeInteger</span><span style="color: #000000">(</span><span style="color: #001080">chainId</span><span style="color: #000000">) &amp;&amp; </span><span style="color: #001080">chainId</span><span style="color: #000000"> &gt; </span><span style="color: #098658">0</span><span style="color: #000000"> &amp;&amp; </span><span style="color: #001080">chainId</span><span style="color: #000000"> &lt;= </span><span style="color: #001080">MAX_SAFE_CHAIN_ID</span>
+<span style="color: #000000">  );</span>
+<span style="color: #000000">}</span>
+</code></pre>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="enums/ChainId.html" class="tsd-kind-icon">Chain<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#MAX_SAFE_CHAINID" class="tsd-kind-icon">MAX_<wbr>SAFE_<wbr>CHAINID</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="modules.html#MAX_SAFE_CHAIN_ID" class="tsd-kind-icon">MAX_<wbr>SAFE_<wbr>CHAIN_<wbr>ID</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="modules.html#default" class="tsd-kind-icon">default</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="modules.html#isSafeChainId" class="tsd-kind-icon">is<wbr>Safe<wbr>Chain<wbr>Id</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
 </html>
