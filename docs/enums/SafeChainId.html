@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ChainId | safe_chainid</title>
-	<meta name="description" content="Documentation for safe_chainid">
+	<title>SafeChainId | safe_chainid</title>
+	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -22,6 +22,8 @@
 					<ul class="results">
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
+					</ul>
+					<ul class="results-priority" style="display:none">
 					</ul>
 					<a href="../index.html" class="title">safe_chainid</a>
 				</div>
@@ -41,6 +43,8 @@
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
 							<input type="checkbox" id="tsd-filter-externals" checked />
 							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -52,58 +56,36 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../modules.html">safe_chainid</a>
-				</li>
-				<li>
-					<a href="ChainId.html">ChainId</a>
+					<a href="SafeChainId.html">SafeChainId</a>
 				</li>
 			</ul>
-			<h1>Enumeration ChainId</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
-		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<dl class="tsd-comment-tags">
-						<dt>file</dt>
-						<dd><p>SafeChainId</p>
-						</dd>
-						<dt>version</dt>
-						<dd><p>0.0.1</p>
-						</dd>
-						<dt>license</dt>
-						<dd><p>Apache-2.0</p>
-						</dd>
-						<dt>package</dt>
-						<dd><p>safe-chainid</p>
-						</dd>
-						<dt>summary</dt>
-						<dd><p>|
-								exports maxium safe integer metamask can accept for chainId
-								exports function {isSafeChainId} for checking value&#39;s of chainId
-							exports function {normalizeChainId} for handling chainId as string</p>
-						</dd>
-						<dt>note</dt>
-						<dd><p>This is surely a pathalogical and edge case that will rarely be encountered</p>
-						</dd>
-					</dl>
-				</div>
-			</section>
+		<div class="col-3 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-7 offset-3 col-content">
+			<h1>Enumeration SafeChainId</h1>
 			<section class="tsd-panel-group tsd-index-group">
-				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
 							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="ChainId.html#G_RLI" class="tsd-kind-icon">GÖRLI</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="ChainId.html#KOVAN" class="tsd-kind-icon">KOVAN</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="ChainId.html#MAINNET" class="tsd-kind-icon">MAINNET</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="ChainId.html#RINKEBY" class="tsd-kind-icon">RINKEBY</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="ChainId.html#ROPSTEN" class="tsd-kind-icon">ROPSTEN</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="SafeChainId.html#G_RLI" class="tsd-kind-icon">GÖRLI</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="SafeChainId.html#KOVAN" class="tsd-kind-icon">KOVAN</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="SafeChainId.html#MAINNET" class="tsd-kind-icon">MAINNET</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="SafeChainId.html#RINKEBY" class="tsd-kind-icon">RINKEBY</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="SafeChainId.html#ROPSTEN" class="tsd-kind-icon">ROPSTEN</a></li>
 							</ul>
 						</section>
 					</div>
@@ -117,7 +99,7 @@
 					<div class="tsd-signature tsd-kind-icon">GÖRLI<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 5</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sambacha/safe-chainid/blob/218896a/source/index.ts#L17">index.ts:17</a></li>
+							<li>Defined in index.ts:23</li>
 						</ul>
 					</aside>
 				</section>
@@ -127,7 +109,7 @@
 					<div class="tsd-signature tsd-kind-icon">KOVAN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 42</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sambacha/safe-chainid/blob/218896a/source/index.ts#L18">index.ts:18</a></li>
+							<li>Defined in index.ts:24</li>
 						</ul>
 					</aside>
 				</section>
@@ -137,7 +119,7 @@
 					<div class="tsd-signature tsd-kind-icon">MAINNET<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 1</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sambacha/safe-chainid/blob/218896a/source/index.ts#L14">index.ts:14</a></li>
+							<li>Defined in index.ts:20</li>
 						</ul>
 					</aside>
 				</section>
@@ -147,7 +129,7 @@
 					<div class="tsd-signature tsd-kind-icon">RINKEBY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 4</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sambacha/safe-chainid/blob/218896a/source/index.ts#L16">index.ts:16</a></li>
+							<li>Defined in index.ts:22</li>
 						</ul>
 					</aside>
 				</section>
@@ -157,57 +139,51 @@
 					<div class="tsd-signature tsd-kind-icon">ROPSTEN<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = 3</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/sambacha/safe-chainid/blob/218896a/source/index.ts#L15">index.ts:15</a></li>
+							<li>Defined in index.ts:21</li>
 						</ul>
 					</aside>
 				</section>
 			</section>
+			<!--{&quot;options&quot;:&quot;/Users/sbacha/safe_chainid&quot;,&quot;tsconfig&quot;:&quot;/Users/sbacha/safe_chainid&quot;,&quot;packages&quot;:[],&quot;entryPoints&quot;:[&quot;/Users/sbacha/safe_chainid/source/index.ts&quot;],&quot;exclude&quot;:[],&quot;externalPattern&quot;:[&quot;**/node_modules/**&quot;],&quot;excludeExternals&quot;:false,&quot;excludeNotDocumented&quot;:false,&quot;excludeInternal&quot;:false,&quot;excludePrivate&quot;:false,&quot;excludeProtected&quot;:false,&quot;disableSources&quot;:false,&quot;includes&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;watch&quot;:false,&quot;preserveWatchOutput&quot;:false,&quot;emit&quot;:false,&quot;out&quot;:&quot;&quot;,&quot;json&quot;:&quot;&quot;,&quot;pretty&quot;:true,&quot;theme&quot;:&quot;./node_modules/typedoc-neo-theme/bin/default&quot;,&quot;highlightTheme&quot;:&quot;light-plus&quot;,&quot;name&quot;:&quot;&quot;,&quot;includeVersion&quot;:false,&quot;excludeTags&quot;:[],&quot;readme&quot;:&quot;&quot;,&quot;defaultCategory&quot;:&quot;Other&quot;,&quot;categoryOrder&quot;:[],&quot;categorizeByGroup&quot;:true,&quot;sort&quot;:[&quot;kind&quot;,&quot;instance-first&quot;,&quot;alphabetical&quot;],&quot;gitRevision&quot;:&quot;&quot;,&quot;gitRemote&quot;:&quot;origin&quot;,&quot;gaID&quot;:&quot;&quot;,&quot;gaSite&quot;:&quot;auto&quot;,&quot;hideGenerator&quot;:false,&quot;toc&quot;:[],&quot;disableOutputCheck&quot;:false,&quot;help&quot;:false,&quot;version&quot;:false,&quot;showConfig&quot;:false,&quot;plugin&quot;:[],&quot;logger&quot;:&quot;console&quot;,&quot;logLevel&quot;:1,&quot;treatWarningsAsErrors&quot;:false,&quot;listInvalidSymbolLinks&quot;:false}-->
 		</div>
-		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
-			<nav class="tsd-navigation primary">
-				<ul>
-					<li class=" ">
-						<a href="../modules.html">Exports</a>
-					</li>
-				</ul>
-			</nav>
+		<div class="col-2 col-menu secondary-menu">
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum">
-						<a href="ChainId.html" class="tsd-kind-icon">Chain<wbr>Id</a>
+					<li class="current tsd-kind-enum root">
+						<a href="SafeChainId.html" class="tsd-kind-icon">Safe<wbr>Chain<wbr>Id</a>
 						<ul>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="ChainId.html#G_RLI" class="tsd-kind-icon">GÖRLI</a>
+								<a href="SafeChainId.html#G_RLI" class="tsd-kind-icon">GÖRLI</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="ChainId.html#KOVAN" class="tsd-kind-icon">KOVAN</a>
+								<a href="SafeChainId.html#KOVAN" class="tsd-kind-icon">KOVAN</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="ChainId.html#MAINNET" class="tsd-kind-icon">MAINNET</a>
+								<a href="SafeChainId.html#MAINNET" class="tsd-kind-icon">MAINNET</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="ChainId.html#RINKEBY" class="tsd-kind-icon">RINKEBY</a>
+								<a href="SafeChainId.html#RINKEBY" class="tsd-kind-icon">RINKEBY</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="ChainId.html#ROPSTEN" class="tsd-kind-icon">ROPSTEN</a>
+								<a href="SafeChainId.html#ROPSTEN" class="tsd-kind-icon">ROPSTEN</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-variable">
-						<a href="../modules.html#MAX_SAFE_CHAINID" class="tsd-kind-icon">MAX_<wbr>SAFE_<wbr>CHAINID</a>
-					</li>
-					<li class=" tsd-kind-variable">
+					<li class=" tsd-kind-variable root">
 						<a href="../modules.html#MAX_SAFE_CHAIN_ID" class="tsd-kind-icon">MAX_<wbr>SAFE_<wbr>CHAIN_<wbr>ID</a>
 					</li>
-					<li class=" tsd-kind-function">
-						<a href="../modules.html#default" class="tsd-kind-icon">default</a>
+					<li class=" tsd-kind-variable root">
+						<a href="../modules.html#MAX_SAFE_CHAIN_ID_HEX" class="tsd-kind-icon">MAX_<wbr>SAFE_<wbr>CHAIN_<wbr>ID_<wbr>HEX</a>
 					</li>
-					<li class=" tsd-kind-function">
+					<li class=" tsd-kind-function root">
 						<a href="../modules.html#isSafeChainId" class="tsd-kind-icon">is<wbr>Safe<wbr>Chain<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-function root">
+						<a href="../modules.html#normalizeChainId" class="tsd-kind-icon">normalize<wbr>Chain<wbr>Id</a>
 					</li>
 				</ul>
 			</nav>
@@ -215,14 +191,9 @@
 	</div>
 </div>
 <footer class="with-border-bottom">
-	<div class="container">
-		<h2>Legend</h2>
-		<div class="tsd-legend-group">
-		</div>
-	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
